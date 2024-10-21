@@ -117,7 +117,7 @@ def clear_fields():
 root = tk.Tk()
 root.title("House Materials Cost Estimation System")
 
-# input fields for cost estimation
+# cost estimation
 frame = tk.Frame(root, padx=10, pady=10)
 frame.pack(padx=20, pady=20)
 
@@ -165,7 +165,7 @@ user_input_entry.pack(padx=20, pady=5)
 send_button = tk.Button(root, text="Send", command=send_message)
 send_button.pack()
 
-# Running the application
+# running the system
 root.mainloop()
 
 
